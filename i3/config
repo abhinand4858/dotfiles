@@ -174,4 +174,6 @@ bindsym $mod+t exec --no-startup-id exec /home/bx1/.Tg/Telegram
 exec --no-startup-id feh --bg-fill /home/bx1/.wallpaper/wall1.png
 exec --no-startup-id /usr/bin/nm-applet --sm-disable # Network Manager
 exec --no-startup-id volumeicon
+exec --no-startup-id dunst
+
 

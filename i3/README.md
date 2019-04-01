@@ -1,5 +1,5 @@
 # i3config
-Configuration file of i3-wm
+Configuration file of i3-wm and i3-status configuration file
 
 ### Download Telegram Desktop and do
     mv path/to/Telegram/ ~/.Tg
@@ -31,3 +31,8 @@ And further add these lines to your i3 config file:
 # i3blocks configuration
 
 Place i3blocks.conf file at this path : `~/.config/i3/i3status.conf`
+
+# Record screen
+
+	ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0 output.mp4
+
