@@ -32,15 +32,14 @@ And further add these lines to your i3 config file:
 
 Place i3blocks.conf file at this path : `~/.config/i3/i3status.conf`
 
-# Record screen
+## Record screen
 
 	ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0 output.mp4
 
-# Make window transitions smooth
+## Make window transitions smooth
 
 	sudo apt install xcompmgr
-# Install lxappearance(change themes and icons) lxpolkit (user auths) flameshot (screenshot utility) 
-
+### Install lxappearance(change themes and icons) lxpolkit (user auths) flameshot (screenshot utility) 
 	sudo apt install lxappearance lxpolkit flameshot
 
 ## Themes and icons
@@ -49,8 +48,8 @@ Place i3blocks.conf file at this path : `~/.config/i3/i3status.conf`
  - https://github.com/EliverLara/Ant
  - https://github.com/EliverLara/Sweet
 
-	sudo cp -r themes/Ant/ themes/Sweet /usr/share/themes/
-	cp themes/Sweet-folders/* ~/.local/share/icons/
+```sudo cp -r themes/Ant/ themes/Sweet /usr/share/themes/```
+```cp themes/Sweet-folders/* ~/.local/share/icons/```
 
 And further apply theme and icon using lxappearance. My take -Ant/sweet-teal-filled/Dejavu-Sans-Mono-Book
 	
