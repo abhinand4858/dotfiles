@@ -1,3 +1,6 @@
 [submodule "themes/Sweet-folders"]
 	path = themes/Sweet-folders
 	url = https://github.com/EliverLara/Sweet-folders
+[submodule "themes/Ant"]
+	path = themes/Ant
+	url = https://github.com/EliverLara/Ant
